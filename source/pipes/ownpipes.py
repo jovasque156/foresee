@@ -214,11 +214,10 @@ def import_pickle(directory):
 
     return p
 
-
 def get_grid(X, y, parameters, model, model_name, scoring=['f1'], refit = 'f1'):
     pipe_model_train = Pipeline([(model_name, model)])
     
-    grid = GridSearchCV(pipe_model_train,param_grid=parameters, cv=5, scoring = scoring, refit=refit) 
+    grid = GridSearchCV(pipe_model_train, param_grid=parameters, cv=5, scoring = scoring, refit=refit) 
     #alterantives: 'accuracy', 'roc_auc' and 'f1' (the las two only accept binary variables)
     
     fit = grid.fit(X,y)
