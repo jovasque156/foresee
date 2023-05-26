@@ -2,6 +2,7 @@
 Repository for the experiments of the paper *Estimating the Risk of Individual Discrimination of Classifiers* presented in PAKDD2023.
 
 **Interested in cloning the project and running it on your computer?**
+
 First clone the project in your machine:
 
 ```
@@ -17,6 +18,9 @@ pip install -r requirements.txt
 
 ## Dropout Dataset
 Due to privacy restriction, we do not provide the dataset for Dropout dataset. However, the results can still found in the `experiments/dropout` folder.
+
+## Theorem Proofs
+The file [Supplementary Material](https://github.com/jovasque156/foresee/blob/master/Supplementary_Material.pdf) contains all the proofs of the theorem. We also provide detail inforamtion regarding exepriments and datasets.
 
 ## Contact
 If you have any questions, please submit an Issue or a pull request.
