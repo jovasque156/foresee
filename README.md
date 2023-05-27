@@ -12,7 +12,6 @@ git clone https://github.com/jovasque156/foresee.git
 And then you must install the packages that are in *requirements.txt* and also make sure you have the official OpenAI Python bindings installed.
 
 ```
-pip install openai
 pip install -r requirements.txt
 ```
 
