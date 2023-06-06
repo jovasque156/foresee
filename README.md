@@ -23,3 +23,15 @@ The file [Supplementary Material](https://github.com/jovasque156/foresee/blob/ma
 
 ## Contact
 If you have any questions, please submit an Issue or a pull request.
+
+## How to cite
+```
+@inproceedings{vasquez2023estimating,
+  title={Estimating the Risk of Individual Discrimination of Classifiers},
+  author={Vasquez, Jonathan and Gitiaux, Xavier and Rangwala, Huzefa},
+  booktitle={Advances in Knowledge Discovery and Data Mining: 27th Pacific-Asia Conference on Knowledge Discovery and Data Mining, PAKDD 2023, Osaka, Japan, May 25--28, 2023, Proceedings, Part I},
+  pages={495--506},
+  year={2023},
+  organization={Springer}
+}
+```
